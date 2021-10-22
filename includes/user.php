@@ -28,13 +28,11 @@ class User extends DB{
             $this->nombre = $currentUser['nombre'];
             $this->username = $currentUser['username'];
         }
-
-        public function getNombre(){
-            return this->nombre;
-        }
-
     }
-
+    
+    public function getNombre(){
+        return $this->nombre;
+    }
 }
 
 ?>

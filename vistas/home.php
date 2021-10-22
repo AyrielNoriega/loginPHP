@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <h2>Bienbenido</h2>
+                <h2>Bienbenido <?php echo $user->getNombre;?></h2> 
             </div>
         </div>
     </div>
