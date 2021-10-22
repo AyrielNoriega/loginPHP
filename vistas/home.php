@@ -10,7 +10,23 @@
 
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>Home</li>
+                    <li>
+                       <a href="inclides/logout.php">Cerrar Sessión</a> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Bienbenido</h2>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
