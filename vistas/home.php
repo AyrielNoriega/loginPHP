@@ -16,14 +16,14 @@
                 <ul>
                     <li>Home</li>
                     <li>
-                       <a href="inclides/logout.php">Cerrar Sessión</a> 
+                       <a href="includes/logout.php">Cerrar Sessión</a> 
                     </li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <h2>Bienbenido <?php echo $user->getNombre;?></h2> 
+                <h2>Bienbenido <?php echo $user->getNombre() ; ?></h2> 
             </div>
         </div>
     </div>

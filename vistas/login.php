@@ -13,22 +13,30 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <form action="" method="post"> 
+            <div class="col-md-7 mx-auto">
+
+                <form  action="" method="post">
+                    <h2>Iniciar sesión</h2>
                     <?php
                         if ( isset( $errorLogin ) ) {
                             echo $errorLogin; 
                         }
 
                     ?>
-                    <h2>Iniciar sesión</h2>
-                    <p>Nombre de usuario</p>
-                    <input type="text" name="username">
-                    <p>Password</p>
-                    <input type="password" name="password">
-                    
-                    <p><input type="submit" value="Iniciar Sesión"></p>
+                    <div class="form-group">
+                        <label for="username" >Nombre de usuario</label>
+                        <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+
+                <a href="/vistas/create_user.php">Crear cuenta aqui</a> 
             </div>
         </div>
     </div>

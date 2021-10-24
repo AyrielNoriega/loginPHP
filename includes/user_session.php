@@ -2,7 +2,8 @@
 
 //ambiente de sesiones
 
-class UserSession{
+class UserSession
+{
 
     public function __construct(){
         session_start();
